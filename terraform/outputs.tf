@@ -3,9 +3,9 @@ output "ec2_instances" {
   value = data.aws_instances.all.ids
 }
 
-output "s3_buckets" {
-  value = data.aws_s3_buckets.all.names
-}
+#output "s3_buckets" {
+#  value = data.aws_s3_buckets.all.names
+#}
 
 output "rds_instances" {
   value = [for db in data.aws_db_instances.all.db_instances : db.id]

@@ -37,7 +37,7 @@ data "aws_subnet" "private-subnet-b" {
 data "aws_instances" "all" {}
 
 # List S3 Buckets
-data "aws_s3_buckets" "all" {}
+#data "aws_s3_buckets" "all" {}
 
 # List RDS Instances
 data "aws_db_instances" "all" {}
