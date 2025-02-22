@@ -1,4 +1,4 @@
-name: "aws-db-destroy"
+name: "aws-destroy"
 
 on:
 #  push:
